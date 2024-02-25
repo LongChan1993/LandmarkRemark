@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54766527092",
+    "project_id": "landmarkremark-edea2",
+    "storage_bucket": "landmarkremark-edea2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54766527092:android:5f105d011dd39cd636e721",
+        "android_client_info": {
+          "package_name": "com.example.landmarkremark"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm5CT066FqtPAX7DNJaQd8e2gddQ2RF1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
