@@ -37,7 +37,7 @@ Others
 - Signing in by inputing a unique username which is an entry point to the application.
 - On singing in , user is presented with a location permissions dialog with the below access actions.
 - Accept - On accepting, the current location of the user is displayed on the map.
-- Deny - The map does not display the current location of user and instead a toast message is displayed informing the user to enable location access. The user in this state will be able to create markers and notes normally.
+- Deny - The map does not display the current location of user and instead a snackbar is displayed informing the user to enable location access. The user in this state will be able to create markers and notes normally.
 - On sign in , the application checks for any location data from the firebase, loads and displays on the map.
 - Displaying current user location by using a blue dot.
 - Map click event to add a new marker with an associated note presented by an input dialog.The marker is represented by a standard black location icon.
@@ -45,7 +45,7 @@ Others
     - Note
     - Username(creator)
     - Location(latitude and longitude)
-- On clicking an info window, the user who created the note has an option to edit the note and update it
+- On clicking an info window, the user who created the note has an option to edit the note and update it.
 - If a user clicks on info windows not created by him/her , he/she will not be able to edit the note and a toast message is displayed to inform the user.
 - On searching based on a note or username, display a snackbar about the number of occurences of the search result.
 - The searched result displays the corresponding map markers highlighted by a standard red location icon.
@@ -54,7 +54,7 @@ Others
 - A logout option on the menu to help the user log out.
 - A function search by google used latest library Place API provided by Google. Which user can search real place and transit to this place and marked it by red mark. If user want, can click red mark and add note to this place. After that, this marker will change black.
 
-## Technology Stack
+## Tech Stack
 - Android Studio using Kotlin
 - Firebase Cloudstore
 - Google Maps SDK and API
