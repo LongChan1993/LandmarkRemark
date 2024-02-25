@@ -64,7 +64,7 @@ Others
 - Firebase database access have short life-time, because using free account. So that, we can advanced this by change to use local database, such as sqlite or room database.
 - The map view activity of the application resets everytime a new note is added which means the activity is recreated. We can come up with an alternative to avoid this.
 
-## Time Estimation
+## Time Consumed
 Total time 20 hours,it consumes more time than expect because api google deprecated, it provide new api need more test and implement.
 
 - Thinking a solution for challenge  - 1hr
